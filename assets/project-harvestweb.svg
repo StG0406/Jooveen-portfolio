@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">HarvestWeb visual</title>
+  <desc id="desc">A browser 3D farm simulation visual with isometric fields.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#12231b"/>
+      <stop offset=".48" stop-color="#060807"/>
+      <stop offset="1" stop-color="#1c202a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="76%" cy="20%" r="45%">
+      <stop offset="0" stop-color="#f0b75b" stop-opacity=".38"/>
+      <stop offset=".55" stop-color="#58d4ad" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#sun)"/>
+  <g transform="translate(92 102)">
+    <text x="0" y="0" fill="#58d4ad" font-family="Inter, Segoe UI, Arial" font-size="20" font-weight="800">JAVASCRIPT / THREE.JS</text>
+    <text x="0" y="58" fill="#f4efe6" font-family="Inter, Segoe UI, Arial" font-size="64" font-weight="850">HarvestWeb</text>
+    <text x="0" y="98" fill="#b8b0a4" font-family="Inter, Segoe UI, Arial" font-size="24" font-weight="700">Browser Farm Simulation</text>
+  </g>
+  <g transform="translate(260 278)">
+    <path d="M0 180L330 0l330 180-330 190z" fill="#10281f" stroke="#f4efe6" stroke-opacity=".16" stroke-width="4"/>
+    <path d="M108 178L330 58l222 120-222 126z" fill="#1f3a24" stroke="#58d4ad" stroke-opacity=".42" stroke-width="4"/>
+    <path d="M188 179l142-76 142 76-142 82z" fill="#2f4a28" stroke="#f0b75b" stroke-opacity=".35" stroke-width="3"/>
+    <g fill="#f0b75b">
+      <rect x="294" y="154" width="72" height="72" rx="8" transform="rotate(45 330 190)"/>
+      <rect x="222" y="195" width="52" height="52" rx="8" transform="rotate(45 248 221)"/>
+      <rect x="390" y="196" width="52" height="52" rx="8" transform="rotate(45 416 222)"/>
+    </g>
+  </g>
+  <g transform="translate(848 448)">
+    <rect width="206" height="108" rx="8" fill="#050505" fill-opacity=".65" stroke="#f4efe6" stroke-opacity=".18"/>
+    <text x="20" y="42" fill="#8db6ff" font-family="Inter, Segoe UI, Arial" font-size="17" font-weight="800">WEB 3D</text>
+    <text x="20" y="76" fill="#f4efe6" font-family="Inter, Segoe UI, Arial" font-size="27" font-weight="850">No Engine</text>
+  </g>
+</svg>

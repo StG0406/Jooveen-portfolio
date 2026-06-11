@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Power Kick visual</title>
+  <desc id="desc">A multiplayer football game visual with networking and power-up energy.</desc>
+  <defs>
+    <linearGradient id="field" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0d281f"/>
+      <stop offset=".52" stop-color="#07100d"/>
+      <stop offset="1" stop-color="#2a1d11"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#f0b75b" stop-opacity=".42"/>
+      <stop offset=".38" stop-color="#f06f7d" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#field)"/>
+  <rect width="1200" height="750" fill="url(#pulse)"/>
+  <g transform="translate(118 90)" fill="none" stroke="#f4efe6" stroke-opacity=".32" stroke-width="5">
+    <rect width="964" height="570" rx="8"/>
+    <path d="M482 0v570"/>
+    <circle cx="482" cy="285" r="110"/>
+    <rect x="0" y="185" width="130" height="200"/>
+    <rect x="834" y="185" width="130" height="200"/>
+  </g>
+  <g transform="translate(526 315)">
+    <circle cx="74" cy="60" r="58" fill="#f4efe6"/>
+    <path d="M74 8l34 26-12 42H52L40 34z" fill="#11110f"/>
+    <path d="M28 60l24 16M120 60L96 76M74 118V76" stroke="#11110f" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g stroke="#58d4ad" stroke-width="5" fill="none" opacity=".9">
+    <path d="M272 218c90-64 164-74 222-30"/>
+    <path d="M726 534c92 30 164 8 216-66"/>
+    <circle cx="258" cy="224" r="20" fill="#58d4ad"/>
+    <circle cx="958" cy="456" r="20" fill="#58d4ad"/>
+  </g>
+  <g transform="translate(86 92)">
+    <text x="0" y="0" fill="#f0b75b" font-family="Inter, Segoe UI, Arial" font-size="20" font-weight="800">48 HOUR MULTIPLAYER BUILD</text>
+    <text x="0" y="54" fill="#f4efe6" font-family="Inter, Segoe UI, Arial" font-size="58" font-weight="850">Power Kick</text>
+    <text x="0" y="94" fill="#b8b0a4" font-family="Inter, Segoe UI, Arial" font-size="24" font-weight="700">Photon 2 / Real-Time Match Sync</text>
+  </g>
+  <g transform="translate(844 96)">
+    <rect width="236" height="96" rx="8" fill="#050505" fill-opacity=".64" stroke="#f4efe6" stroke-opacity=".18"/>
+    <text x="22" y="38" fill="#f06f7d" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="800">POWER-UPS</text>
+    <text x="22" y="70" fill="#f4efe6" font-family="Inter, Segoe UI, Arial" font-size="24" font-weight="850">Magnet / Shield</text>
+  </g>
+</svg>

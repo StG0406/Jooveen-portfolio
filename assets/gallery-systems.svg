@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Systems gallery frame</title>
+  <desc id="desc">A reusable placeholder for AI, gameplay, and architecture screenshots.</desc>
+  <rect width="1200" height="750" fill="#070707"/>
+  <radialGradient id="g" cx="50%" cy="42%" r="58%">
+    <stop offset="0" stop-color="#58d4ad" stop-opacity=".24"/>
+    <stop offset=".5" stop-color="#f0b75b" stop-opacity=".11"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <g transform="translate(126 112)" fill="none" stroke="#f4efe6" stroke-opacity=".2" stroke-width="3">
+    <rect width="948" height="526" rx="8"/>
+    <path d="M142 132h188M330 132l112 92M442 224h200M642 224l118-92M760 132h160"/>
+    <path d="M442 224l-112 130H142M642 224l118 130h160"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial" font-weight="850">
+    <text x="160" y="166" fill="#f0b75b" font-size="28">Input</text>
+    <text x="454" y="256" fill="#58d4ad" font-size="28">Decision</text>
+    <text x="798" y="166" fill="#8db6ff" font-size="28">Action</text>
+    <text x="158" y="494" fill="#f06f7d" font-size="28">State</text>
+    <text x="782" y="494" fill="#f0b75b" font-size="28">Feedback</text>
+  </g>
+</svg>

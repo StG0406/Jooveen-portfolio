@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Patisserie Rush visual</title>
+  <desc id="desc">A bakery simulation interface with production logic and UI systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2a1815"/>
+      <stop offset=".44" stop-color="#0a0807"/>
+      <stop offset="1" stop-color="#1c2318"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="35%" cy="24%" r="72%">
+      <stop offset="0" stop-color="#f0b75b" stop-opacity=".34"/>
+      <stop offset=".55" stop-color="#f06f7d" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#warm)"/>
+  <g transform="translate(86 84)">
+    <text x="0" y="0" fill="#f0b75b" font-family="Inter, Segoe UI, Arial" font-size="20" font-weight="800">SOLE PROGRAMMER / UI DESIGNER</text>
+    <text x="0" y="56" fill="#f4efe6" font-family="Inter, Segoe UI, Arial" font-size="58" font-weight="850">Patisserie Rush</text>
+    <text x="0" y="96" fill="#b8b0a4" font-family="Inter, Segoe UI, Arial" font-size="24" font-weight="700">Cafe Bakery Simulation</text>
+  </g>
+  <g transform="translate(120 250)">
+    <rect width="960" height="330" rx="8" fill="#0b0b0a" stroke="#f4efe6" stroke-opacity=".18"/>
+    <rect x="32" y="32" width="266" height="266" rx="8" fill="#17120e" stroke="#f0b75b" stroke-opacity=".38"/>
+    <circle cx="110" cy="118" r="38" fill="#f0b75b"/>
+    <circle cx="196" cy="118" r="38" fill="#f06f7d"/>
+    <circle cx="154" cy="196" r="42" fill="#58d4ad"/>
+    <g transform="translate(340 38)">
+      <rect width="270" height="52" rx="8" fill="#151515" stroke="#f4efe6" stroke-opacity=".16"/>
+      <rect y="78" width="270" height="52" rx="8" fill="#151515" stroke="#f4efe6" stroke-opacity=".16"/>
+      <rect y="156" width="270" height="52" rx="8" fill="#151515" stroke="#f4efe6" stroke-opacity=".16"/>
+      <path d="M24 26h180M24 104h148M24 182h210" stroke="#f4efe6" stroke-opacity=".58" stroke-width="8" stroke-linecap="round"/>
+      <path d="M24 52h92M24 130h120M24 208h78" stroke="#f0b75b" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(660 34)">
+      <rect width="256" height="226" rx="8" fill="#151515" stroke="#f4efe6" stroke-opacity=".16"/>
+      <text x="26" y="44" fill="#58d4ad" font-family="Inter, Segoe UI, Arial" font-size="17" font-weight="800">RECIPE PANEL</text>
+      <path d="M28 86h168M28 124h196M28 162h126" stroke="#f4efe6" stroke-opacity=".6" stroke-width="9" stroke-linecap="round"/>
+      <rect x="28" y="188" width="96" height="20" rx="8" fill="#f0b75b"/>
+    </g>
+  </g>
+</svg>

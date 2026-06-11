@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1200" viewBox="0 0 960 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract profile portrait placeholder</title>
+  <desc id="desc">A cinematic game developer workspace portrait placeholder.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#24211c"/>
+      <stop offset="0.5" stop-color="#080807"/>
+      <stop offset="1" stop-color="#13251f"/>
+    </linearGradient>
+    <radialGradient id="light" cx="45%" cy="24%" r="62%">
+      <stop offset="0" stop-color="#f0b75b" stop-opacity=".42"/>
+      <stop offset=".42" stop-color="#58d4ad" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="960" height="1200" fill="url(#bg)"/>
+  <rect width="960" height="1200" fill="url(#light)"/>
+  <g opacity=".22">
+    <path d="M80 180h800M80 300h800M80 420h800M80 540h800M80 660h800M80 780h800M80 900h800" stroke="#f4efe6" stroke-width="1"/>
+    <path d="M160 80v1040M320 80v1040M480 80v1040M640 80v1040M800 80v1040" stroke="#f4efe6" stroke-width="1"/>
+  </g>
+  <g filter="url(#soft)" opacity=".35">
+    <circle cx="276" cy="340" r="140" fill="#f0b75b"/>
+    <circle cx="702" cy="310" r="118" fill="#8db6ff"/>
+    <circle cx="610" cy="850" r="170" fill="#58d4ad"/>
+  </g>
+  <g transform="translate(240 248)">
+    <path d="M240 0c112 0 202 90 202 202s-90 202-202 202S38 314 38 202 128 0 240 0Z" fill="#0b0b0a" stroke="#f0b75b" stroke-width="4"/>
+    <path d="M128 352c42 42 91 62 147 62 49 0 93-16 130-49 66 36 111 107 111 188v88H0v-88c0-91 52-170 128-201Z" fill="#11110f" stroke="#f4efe6" stroke-opacity=".16" stroke-width="4"/>
+    <path d="M144 186c40-48 84-72 132-72 42 0 79 18 113 54" fill="none" stroke="#58d4ad" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="183" cy="230" r="16" fill="#f4efe6"/>
+    <circle cx="309" cy="230" r="16" fill="#f4efe6"/>
+    <path d="M182 302c39 32 85 33 138 3" fill="none" stroke="#f0b75b" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(80 1000)">
+    <rect width="800" height="96" rx="8" fill="#050505" fill-opacity=".72" stroke="#f4efe6" stroke-opacity=".18"/>
+    <text x="36" y="42" fill="#f0b75b" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">JOOVEEN A/L RAVI</text>
+    <text x="36" y="72" fill="#f4efe6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Game Developer</text>
+  </g>
+</svg>

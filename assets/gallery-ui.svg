@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">UI gallery frame</title>
+  <desc id="desc">A reusable placeholder for menu, HUD, and interface screenshots.</desc>
+  <rect width="1200" height="750" fill="#060606"/>
+  <radialGradient id="glow" cx="68%" cy="32%" r="60%">
+    <stop offset="0" stop-color="#8db6ff" stop-opacity=".25"/>
+    <stop offset=".45" stop-color="#f0b75b" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="750" fill="url(#glow)"/>
+  <g transform="translate(126 96)">
+    <rect width="948" height="558" rx="8" fill="#10100e" stroke="#f4efe6" stroke-opacity=".18"/>
+    <rect x="34" y="34" width="252" height="490" rx="8" fill="#050505" stroke="#f4efe6" stroke-opacity=".12"/>
+    <rect x="320" y="34" width="594" height="270" rx="8" fill="#050505" stroke="#f4efe6" stroke-opacity=".12"/>
+    <rect x="320" y="334" width="278" height="190" rx="8" fill="#050505" stroke="#f4efe6" stroke-opacity=".12"/>
+    <rect x="636" y="334" width="278" height="190" rx="8" fill="#050505" stroke="#f4efe6" stroke-opacity=".12"/>
+    <path d="M68 86h142M68 136h176M68 186h98M68 236h148" stroke="#f0b75b" stroke-width="10" stroke-linecap="round"/>
+    <path d="M358 92h320M358 148h410M358 204h274" stroke="#f4efe6" stroke-opacity=".54" stroke-width="12" stroke-linecap="round"/>
+    <rect x="358" y="248" width="150" height="28" rx="8" fill="#58d4ad"/>
+    <path d="M358 390h168M358 440h122M674 390h160M674 440h198" stroke="#8db6ff" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="160" y="708" fill="#f4efe6" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="850">HUD / Menu / Interface Frame</text>
+</svg>

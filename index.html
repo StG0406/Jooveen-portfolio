@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jooveen A/L Ravi - game developer portfolio focused on gameplay programming, AI systems, multiplayer, and interactive worlds."
+    />
+    <title>Jooveen A/L Ravi | Game Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="world-canvas" aria-hidden="true"></canvas>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header" data-reveal>
+      <a class="brand-mark" href="#landing" aria-label="Jooveen A/L Ravi home">
+        <span>JR</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#technology">Tech Map</a>
+        <a href="#recruiter">Recruiter</a>
+      </nav>
+      <a class="header-action" href="#contact">Contact</a>
+    </header>
+
+    <main>
+      <section class="hero-section" id="landing" data-reveal>
+        <div class="hero-copy">
+          <p class="eyebrow">Game Developer / Game Programmer / Software Engineer</p>
+          <h1>Building Interactive Worlds</h1>
+          <p class="hero-subtitle">
+            Game Developer specializing in gameplay systems, multiplayer experiences,
+            AI behaviours, and immersive player interactions.
+          </p>
+          <div class="hero-actions" aria-label="Primary portfolio actions">
+            <a class="primary-action" href="#projects">View Projects</a>
+            <a class="secondary-action" href="mailto:jooveen040604@gmail.com">Start Conversation</a>
+          </div>
+        </div>
+
+        <figure class="hero-portrait" aria-label="Professional profile photo">
+          <!-- Replace assets/images/profile-photo.png with a new exported portrait if you update your portfolio image. -->
+          <img src="assets/images/profile-photo.png" alt="Jooveen A/L Ravi professional portfolio portrait" />
+          <figcaption>
+            <span>Jooveen A/L Ravi</span>
+            <strong>Gameplay Programmer</strong>
+          </figcaption>
+        </figure>
+
+        <div class="hero-metrics" aria-label="Portfolio highlights">
+          <div>
+            <strong>3.75</strong>
+            <span>CGPA</span>
+          </div>
+          <div>
+            <strong>5x</strong>
+            <span>Dean's List</span>
+          </div>
+          <div>
+            <strong>48h</strong>
+            <span>Multiplayer Build</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="profile-section section-shell" id="profile">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Developer Profile</p>
+          <h2>Progression, not a static bio.</h2>
+          <p>
+            A Computer Science (Game Development) student at UTeM, building across
+            Unity, Unreal, browser-based 3D, AI behavior systems, and multiplayer gameplay.
+          </p>
+        </div>
+
+        <div class="profile-grid">
+          <div class="profile-portrait" data-reveal>
+            <!-- Secondary portrait in the Developer Profile section. Replace assets/images/profile-photo-2.png to update this image. -->
+            <img src="assets/images/profile-photo-2.png" alt="Jooveen A/L Ravi portrait" />
+            <div class="portrait-stats">
+              <span>Expected Graduation</span>
+              <strong>April 2027</strong>
+            </div>
+          </div>
+
+          <ol class="timeline" aria-label="Developer progression timeline">
+            <li data-reveal>
+              <span class="timeline-index">01</span>
+              <div>
+                <h3>Started Game Development</h3>
+                <p>Built early projects across GDevelop, C++, and Unity while learning how systems shape play.</p>
+              </div>
+            </li>
+            <li data-reveal>
+              <span class="timeline-index">02</span>
+              <div>
+                <h3>First Published Projects</h3>
+                <p>Exported Android builds and shipped playable simulations across mobile, desktop, and web.</p>
+              </div>
+            </li>
+            <li data-reveal>
+              <span class="timeline-index">03</span>
+              <div>
+                <h3>Dean's List Achievements</h3>
+                <p>Earned five consecutive Dean's List awards while expanding into AI, networking, and 3D tools.</p>
+              </div>
+            </li>
+            <li data-reveal>
+              <span class="timeline-index">04</span>
+              <div>
+                <h3>Game Jam Success</h3>
+                <p>Built Power Kick in 48 hours with Photon 2 networking, placing 2nd out of 10 teams.</p>
+              </div>
+            </li>
+            <li data-reveal>
+              <span class="timeline-index">05</span>
+              <div>
+                <h3>Current Final Year Project</h3>
+                <p>Developing a survival research game that studies Human-AI Teaming through teammate behavior.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="projects-section section-shell" id="projects">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Playable systems, presented like products.</h2>
+          <p>
+            Each build highlights the engineering decision, design pressure, and production lesson behind the work.
+          </p>
+        </div>
+
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="tech-section section-shell" id="technology">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Interactive Technology Map</p>
+          <h2>Tools connected by use, not just listed.</h2>
+          <p>
+            The map groups engines, programming languages, AI systems, networking, and creative production tools.
+          </p>
+        </div>
+
+        <div class="tech-layout">
+          <div class="tech-map" id="tech-map" data-reveal aria-label="Technology network visualization">
+            <svg class="tech-lines" id="tech-lines" viewBox="0 0 100 100" aria-hidden="true"></svg>
+            <div class="tech-core">
+              <span>Gameplay</span>
+              <strong>Systems</strong>
+            </div>
+          </div>
+
+          <aside class="tech-detail" id="tech-detail" data-reveal aria-live="polite">
+            <p class="eyebrow">Selected Technology</p>
+            <h3>Unity 6</h3>
+            <p>
+              Primary engine for gameplay programming, AI teammate behavior, UI systems,
+              and multiplayer prototypes.
+            </p>
+            <dl>
+              <div>
+                <dt>Experience</dt>
+                <dd>Production coursework, final year research, and game jam builds</dd>
+              </div>
+              <div>
+                <dt>Use Cases</dt>
+                <dd>Gameplay loops, AI controllers, UI, physics, and Photon multiplayer</dd>
+              </div>
+              <div>
+                <dt>Related Projects</dt>
+                <dd>Survival HAT Research Game, Power Kick, Patisserie Rush</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="philosophy-section section-shell" id="philosophy">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Development Philosophy</p>
+          <h2>Principles behind the work.</h2>
+        </div>
+
+        <div class="philosophy-grid">
+          <article data-reveal>
+            <span>01</span>
+            <h3>Learn Through Building</h3>
+            <p>Each project becomes a practical testbed for new tools, pipelines, and design constraints.</p>
+          </article>
+          <article data-reveal>
+            <span>02</span>
+            <h3>Systems First</h3>
+            <p>Good gameplay emerges from reliable mechanics, readable state, and well-structured behavior.</p>
+          </article>
+          <article data-reveal>
+            <span>03</span>
+            <h3>Iterate Constantly</h3>
+            <p>Prototype, observe, adjust, and use feedback to move from playable to convincing.</p>
+          </article>
+          <article data-reveal>
+            <span>04</span>
+            <h3>Player Experience Matters</h3>
+            <p>Technical systems earn their place when they create clearer choices and better moments.</p>
+          </article>
+          <article data-reveal>
+            <span>05</span>
+            <h3>Technology Enables Creativity</h3>
+            <p>Engines, AI, tools, and networking are used as creative leverage, not decoration.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="recruiter-section section-shell" id="recruiter">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Why Work With Me</p>
+          <h2>Internship-ready, systems-minded, quick to ramp.</h2>
+          <p>
+            Academic consistency, multi-engine exposure, and hands-on project delivery across gameplay,
+            AI, UI, web, database, and multiplayer systems.
+          </p>
+        </div>
+
+        <div class="recruiter-grid">
+          <article data-reveal data-count="3.75">
+            <strong>3.75</strong>
+            <span>CGPA — Strong Academic Record</span>
+          </article>
+          <article data-reveal data-count="5">
+            <strong>5</strong>
+            <span>Consecutive Dean's List Awards</span>
+          </article>
+          <article data-reveal>
+            <strong>3</strong>
+            <span>Game Engines — Unity, Unreal, GDevelop</span>
+          </article>
+          <article data-reveal>
+            <strong>AI</strong>
+            <span>Behaviour Trees, FSM, NavMesh</span>
+          </article>
+          <article data-reveal>
+            <strong>Photon</strong>
+            <span>Real-Time Multiplayer Networking</span>
+          </article>
+          <article data-reveal data-count="6">
+            <strong>6</strong>
+            <span>Languages &amp; Frameworks</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section section-shell" id="contact">
+        <div class="contact-content" data-reveal>
+          <p class="eyebrow">Contact</p>
+          <h2>Available for internship conversations.</h2>
+          <div class="contact-links">
+            <a href="mailto:jooveen040604@gmail.com">jooveen040604@gmail.com</a>
+            <a href="tel:+60182819620">018-2819620</a>
+            <span>Muar, Johor, Malaysia</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="case-dialog" id="case-dialog" aria-labelledby="case-title">
+      <div class="dialog-frame">
+        <button class="dialog-close" type="button" id="dialog-close" aria-label="Close case study">Close</button>
+        <div class="case-layout">
+          <div class="case-media">
+            <!-- Videos: double-click to go fullscreen. Replace files in assets/videos with updated captures using the same filenames. -->
+            <div class="case-media-stage" id="case-media-stage"></div>
+            <div class="case-thumbs" id="case-thumbs" aria-label="Case study media options"></div>
+          </div>
+          <div class="case-copy">
+            <p class="eyebrow" id="case-meta">Unity 6 / C#</p>
+            <h2 id="case-title">Project Title</h2>
+            <p id="case-overview"></p>
+            <div class="case-columns">
+              <section>
+                <h3>Technical Challenges</h3>
+                <ul id="case-challenges"></ul>
+              </section>
+              <section>
+                <h3>Systems Built</h3>
+                <ul id="case-systems"></ul>
+              </section>
+              <section>
+                <h3>Technologies Used</h3>
+                <ul id="case-tech"></ul>
+              </section>
+              <section>
+                <h3>Lessons Learned</h3>
+                <p id="case-lessons"></p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Gameplay gallery frame</title>
+  <desc id="desc">A reusable placeholder for gameplay screenshots and captures.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101513"/>
+      <stop offset=".5" stop-color="#050505"/>
+      <stop offset="1" stop-color="#1a1425"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g opacity=".22" stroke="#f4efe6" stroke-width="2">
+    <path d="M0 570c128-66 260-82 396-48s284 22 444-36 280-66 360-24"/>
+    <path d="M0 652c206-54 386-52 540 6s374 38 660-60"/>
+  </g>
+  <g transform="translate(140 146)">
+    <rect width="920" height="458" rx="8" fill="#050505" fill-opacity=".42" stroke="#f4efe6" stroke-opacity=".18"/>
+    <path d="M98 302c74-128 168-192 282-192 112 0 210 62 294 186" fill="none" stroke="#f0b75b" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="380" cy="110" r="52" fill="#58d4ad" fill-opacity=".78"/>
+    <circle cx="674" cy="296" r="34" fill="#f06f7d" fill-opacity=".82"/>
+    <path d="M168 368h584" stroke="#8db6ff" stroke-width="8" stroke-linecap="round" opacity=".74"/>
+  </g>
+  <text x="150" y="676" fill="#f4efe6" font-family="Inter, Segoe UI, Arial" font-size="34" font-weight="850">Gameplay Capture Frame</text>
+</svg>
